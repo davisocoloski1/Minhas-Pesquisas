@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-image: url(imagens/img.png);
+    max-width: 100%;
+    min-width: 320px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    background-color: #3F2FCF;
+    margin: -10px;
+    padding: 20px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    color: white;
+}
+
+nav > .carrinho {
+    position: absolute;
+    left: 95%;
+    top: 1.5%;
+    padding: 5px;
+    border-radius: 10px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 9px;
+    color: #5A64AB;
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(15px);
+    padding: 10px;
+    margin: auto;
+    border-radius: 8px 20px;
+    text-align: center;
+    max-width: 300px;
+    min-width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    height: 25px;
+    width: 220px;
+    background-color: #302631;
+    color: white;
+}
+
+button {
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #3B3251;
+    color: white;
+    font-weight: 600;
+}
+
+button:hover {
+    text-decoration: underline;
+    background-color: #2b1e50;
+    transition: 0.35s;
+}
