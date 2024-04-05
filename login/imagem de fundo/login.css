@@ -3,7 +3,7 @@
 body {
     background-image: url(imagens/img.png);
     min-width: 320px;
-    overflow-x: hidden;
+    overflow: hidden;
     font-family: 'Work Sans', sans-serif;
 }
 
