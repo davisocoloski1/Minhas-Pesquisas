@@ -2,8 +2,8 @@
 
 body {
     background-image: url(imagens/img.png);
-    max-width: 100%;
     min-width: 320px;
+    overflow-x: hidden;
     font-family: 'Work Sans', sans-serif;
 }
 
